@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(41, 37, 37);
+}
+
+
+
+.alert {
+  position: absolute;
+  top: 100px;
+  right: 40%;
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.alert h2 {
+  margin: 0 auto;
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  /* max-width: 1600px; */
+  margin: 0 auto;
+  border-bottom: 1px dotted #abc0ca;
+  background-color: rgb(236, 246, 255);
+}
+.navbar h1 {
+  color: #5e5e5e;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #002e4d;
+  font-weight: 500;
+}
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+button {
+  height: 40px;
+  font-size: large;
+  cursor: pointer;
+
+}
+
+/* VesselList */
+
+.vessel{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+}
+.vessel:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.vessel h2 {
+  color: #002e4d;
+  margin-bottom: 8px;
+}
+
+.vessel span {
+  color: black;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+
+/* add new vessel */
+.addVessel {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.addVessel label {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+}
+.addVessel h2 {
+  margin: 20px;
+}
+.addVessel input, .addVessel textarea, .addVessel select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px dotted rgb(175, 175, 175);
+  box-sizing: border-box;
+  display: block;
+}
